@@ -1,0 +1,42 @@
+{
+  "name": "crossbeam-sdk",
+  "version": "1.0.0",
+  "description": "Cross-Chain Settlement SDK for Developers: Developer SDK enabling cross-chain interoperability and liquidity settlement between DAMA and external blockchains (e.g. XRPL, Solana, Ethereum). Includes smart contract templates, liquidity bridges, and oracle integration.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "sdk",
+    "cross-chain",
+    "liquidity",
+    "oracles",
+    "defi",
+    "interoperability",
+    "blockchain",
+    "ethereum",
+    "solana",
+    "xrpl",
+    "dama"
+  ],
+  "author": "REDDNoC",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.0",
+    "ethers": "^6.9.0",
+    "graphql": "^16.8.0",
+    "xrpl": "^2.11.0"
+  }
+}
